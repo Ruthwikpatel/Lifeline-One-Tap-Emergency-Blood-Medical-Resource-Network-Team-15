@@ -1,0 +1,5 @@
+{
+  "name": "One Tap Life-line",
+  "description": "A real-time emergency response system with dynamic mode switching between Donor and Patient modes, featuring voice-based emergency requests and smart donor matching.",
+  "requestFramePermissions": ["microphone", "geolocation"]
+}

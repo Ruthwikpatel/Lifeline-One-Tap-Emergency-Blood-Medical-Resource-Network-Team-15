@@ -1,0 +1,301 @@
+{
+  "users": [
+    {
+      "user_id": 2,
+      "name": "Rahul Kumar",
+      "phone": "9876543210",
+      "password": "hashed_password",
+      "blood_group": "O+",
+      "latitude": 17.35,
+      "longitude": 78.72,
+      "last_donation_date": null,
+      "is_available": 1,
+      "current_mode": "donor",
+      "address": "Kothapet, Hyderabad"
+    },
+    {
+      "user_id": 3,
+      "name": "Priya Singh",
+      "phone": "9876543211",
+      "password": "hashed_password",
+      "blood_group": "O+",
+      "latitude": 17.34,
+      "longitude": 78.71,
+      "last_donation_date": "2025-12-01T10:00:00.000Z",
+      "is_available": 1,
+      "current_mode": "donor",
+      "address": "Dilsukhnagar, Hyderabad"
+    },
+    {
+      "user_id": 4,
+      "name": "Amit Sharma",
+      "phone": "9876543212",
+      "password": "hashed_password",
+      "blood_group": "A+",
+      "latitude": 17.38,
+      "longitude": 78.48,
+      "last_donation_date": null,
+      "is_available": 1,
+      "current_mode": "donor",
+      "address": "Abids, Hyderabad"
+    },
+    {
+      "user_id": 5,
+      "name": "Sneha Reddy",
+      "phone": "9876543213",
+      "password": "hashed_password",
+      "blood_group": "B+",
+      "latitude": 17.3441617119967,
+      "longitude": 78.71471141832097,
+      "last_donation_date": null,
+      "is_available": 1,
+      "current_mode": "patient",
+      "address": "Banjara Hills, Hyderabad"
+    },
+    {
+      "user_id": 6,
+      "name": "abhiram",
+      "phone": "7981024773",
+      "password": "$2b$10$UaOhCEhhqnnPRrzoTBky2.uWkzhlMXzdWs4U.ideAyVVU4M8/hMDa",
+      "blood_group": "O+",
+      "latitude": 17.344184653946826,
+      "longitude": 78.71453815711831,
+      "last_donation_date": null,
+      "is_available": 1,
+      "current_mode": "donor"
+    },
+    {
+      "user_id": 7,
+      "name": "sanj",
+      "phone": "9515276423",
+      "password": "$2b$10$dpMdkVwelPV8Hq26RTASIOeAx.GhofvETyLcdR4yNnujiw4dCtote",
+      "blood_group": "O+",
+      "latitude": 17.344236743494424,
+      "longitude": 78.71442772490707,
+      "last_donation_date": null,
+      "is_available": 1,
+      "current_mode": "donor"
+    },
+    {
+      "user_id": 8,
+      "name": "Abhi",
+      "phone": "9392681359",
+      "password": "$2b$10$OWkYa6ggeTGViujWki57IeE0Mymyp/6pCa.Osts5/AEUoZxxxN.l6",
+      "blood_group": "A+",
+      "latitude": 17.344205008997005,
+      "longitude": 78.71454357158319,
+      "last_donation_date": null,
+      "is_available": 1,
+      "current_mode": "donor"
+    }
+  ],
+  "emergency_requests": [
+    {
+      "request_id": 1,
+      "user_id": 5,
+      "blood_group_needed": "B+",
+      "latitude": 17.34418450131885,
+      "longitude": 78.71473775599175,
+      "urgency": "Medium",
+      "quantity": 2,
+      "address": "Banjara Hills, Hyderabad",
+      "status": "pending",
+      "created_at": "2026-03-29T13:09:39.119Z"
+    },
+    {
+      "request_id": 2,
+      "user_id": 7,
+      "blood_group_needed": "O+",
+      "latitude": 17.3442275,
+      "longitude": 78.7143975,
+      "urgency": "High",
+      "quantity": 4,
+      "address": "Hyderabad",
+      "status": "pending",
+      "created_at": "2026-04-05T14:12:32.477Z"
+    },
+    {
+      "request_id": 3,
+      "user_id": 7,
+      "blood_group_needed": "O+",
+      "latitude": 17.344207656480325,
+      "longitude": 78.71448998497563,
+      "urgency": "High",
+      "quantity": 4,
+      "address": "Hyderabad",
+      "status": "pending",
+      "created_at": "2026-04-05T14:13:28.233Z"
+    },
+    {
+      "request_id": 4,
+      "user_id": 7,
+      "blood_group_needed": "B+",
+      "latitude": 17.34421683795648,
+      "longitude": 78.71445789204341,
+      "urgency": "High",
+      "quantity": 6,
+      "address": "Hyderabad",
+      "status": "pending",
+      "created_at": "2026-04-05T14:16:32.656Z"
+    },
+    {
+      "request_id": 5,
+      "user_id": 7,
+      "blood_group_needed": "O+",
+      "latitude": 17.3291,
+      "longitude": 78.5996,
+      "urgency": "Medium",
+      "quantity": 1,
+      "address": "",
+      "status": "pending",
+      "created_at": "2026-04-08T15:00:54.673Z"
+    },
+    {
+      "request_id": 6,
+      "user_id": 7,
+      "blood_group_needed": "B+",
+      "latitude": 17.344234513011152,
+      "longitude": 78.71441638661709,
+      "urgency": "High",
+      "quantity": 5,
+      "address": "HYDERABAD",
+      "status": "pending",
+      "created_at": "2026-04-08T15:03:02.394Z"
+    },
+    {
+      "request_id": 7,
+      "user_id": 7,
+      "blood_group_needed": "A+",
+      "latitude": 17.3442275,
+      "longitude": 78.71440149999998,
+      "urgency": "Medium",
+      "quantity": 1,
+      "address": ":null",
+      "status": "pending",
+      "created_at": "2026-04-08T15:04:34.231Z"
+    },
+    {
+      "request_id": 8,
+      "user_id": 7,
+      "blood_group_needed": "A+",
+      "latitude": 17.3442275,
+      "longitude": 78.71440149999998,
+      "urgency": "Medium",
+      "quantity": 1,
+      "address": ":null",
+      "status": "pending",
+      "created_at": "2026-04-08T15:04:37.055Z"
+    },
+    {
+      "request_id": 9,
+      "user_id": 7,
+      "blood_group_needed": "O+",
+      "latitude": 17.344229897260274,
+      "longitude": 78.71440583789955,
+      "urgency": "High",
+      "quantity": 5,
+      "address": "HYDERABAD",
+      "status": "pending",
+      "created_at": "2026-04-08T15:05:46.766Z"
+    },
+    {
+      "request_id": 10,
+      "user_id": 7,
+      "blood_group_needed": "O+",
+      "latitude": 17.3442275,
+      "longitude": 78.71440149999998,
+      "urgency": "High",
+      "quantity": 5,
+      "address": "HYDERABAD",
+      "status": "pending",
+      "created_at": "2026-04-08T15:06:37.319Z"
+    },
+    {
+      "request_id": 11,
+      "user_id": 8,
+      "blood_group_needed": "A+",
+      "latitude": 17.344233721414692,
+      "longitude": 78.71442526305886,
+      "urgency": "High",
+      "quantity": 6,
+      "address": "Hyderabad",
+      "status": "pending",
+      "created_at": "2026-04-09T13:48:41.163Z"
+    },
+    {
+      "request_id": 12,
+      "user_id": 8,
+      "blood_group_needed": "A+",
+      "latitude": 17.344205008997005,
+      "longitude": 78.71454357158319,
+      "urgency": "High",
+      "quantity": 6,
+      "address": "Hyderabad",
+      "status": "pending",
+      "created_at": "2026-04-09T13:49:26.845Z"
+    }
+  ],
+  "donation_history": [],
+  "blood_bank_inventory": [
+    {
+      "id": 1,
+      "hospital_name": "City General Hospital",
+      "blood_group": "A+",
+      "units_available": 10,
+      "latitude": 17.385,
+      "longitude": 78.4867,
+      "phone": "+91 98480 12345",
+      "address": "Nampally, Hyderabad"
+    },
+    {
+      "id": 2,
+      "hospital_name": "Red Cross Blood Bank",
+      "blood_group": "B+",
+      "units_available": 7,
+      "latitude": 17.4065,
+      "longitude": 78.4691,
+      "phone": "+91 98480 23456",
+      "address": "Himayatnagar, Hyderabad"
+    },
+    {
+      "id": 3,
+      "hospital_name": "St. Marys Medical Center",
+      "blood_group": "O-",
+      "units_available": 2,
+      "latitude": 17.4483,
+      "longitude": 78.3915,
+      "phone": "+91 98480 34567",
+      "address": "Hitech City, Hyderabad"
+    },
+    {
+      "id": 4,
+      "hospital_name": "Apollo Health City",
+      "blood_group": "AB+",
+      "units_available": 8,
+      "latitude": 17.4256,
+      "longitude": 78.4129,
+      "phone": "+91 98480 45678",
+      "address": "Jubilee Hills, Hyderabad"
+    },
+    {
+      "id": 5,
+      "hospital_name": "Global Life Blood Bank",
+      "blood_group": "O+",
+      "units_available": 12,
+      "latitude": 17.345,
+      "longitude": 78.715,
+      "phone": "+91 98480 56789",
+      "address": "Uppal, Hyderabad"
+    },
+    {
+      "id": 6,
+      "hospital_name": "Sunshine Medical Center",
+      "blood_group": "O+",
+      "units_available": 4,
+      "latitude": 17.36,
+      "longitude": 78.73,
+      "phone": "+91 98480 67890",
+      "address": "Nagole, Hyderabad"
+    }
+  ]
+}
